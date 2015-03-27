@@ -63,17 +63,26 @@ public enum Hero implements ICardBase {
 	punisher(R.string.hero_punisher, R.drawable.hero_punisher, T.KNIGHTS, new int[]{C.TECH, C.TECH, C.STRENGTH, C.TECH}, Sets.DarkCity),
 	wolverine_dc(R.string.hero_wolverine, R.drawable.hero_wolverine_dc, T.XFORCE, new int[]{C.INSTINCT, C.COVERT, C.STRENGTH, C.COVERT}, Sets.DarkCity),
 
+	//Fantastic Four
 	human_torch(R.string.hero_human_torch, R.drawable.hero_human_torch, T.FFOUR, new int[]{C.RANGED, C.INSTINCT, C.RANGED, C.RANGED}, Sets.FantasticFour),
 	invisible_woman(R.string.hero_invisible_woman, R.drawable.hero_invisible_woman, T.FFOUR, new int[]{C.COVERT, C.RANGED, C.COVERT, C.RANGED}, Sets.FantasticFour),
 	mr_fantastic(R.string.hero_mr_fantastic, R.drawable.hero_mr_fantastic, T.FFOUR, new int[]{C.TECH, C.TECH, C.INSTINCT, C.TECH}, Sets.FantasticFour),
 	silver_surfer(R.string.hero_silver_surfer, R.drawable.hero_silver_surfer, T.NONE, new int[]{C.STRENGTH, C.COVERT, C.RANGED, C.RANGED}, Sets.FantasticFour),
 	thing(R.string.hero_thing, R.drawable.hero_thing, T.FFOUR, new int[]{C.INSTINCT, C.STRENGTH, C.STRENGTH, C.STRENGTH}, Sets.FantasticFour),
 	
+	//Paint The Town Red
 	symbiote(R.string.hero_symbiote, R.drawable.hero_symbiote, T.SPIDER, new int[]{C.STRENGTH, C.INSTINCT, C.COVERT, C.RANGED}, Sets.PaintRed),
 	blackCat(R.string.hero_black_cat, R.drawable.hero_black_cat, T.SPIDER, new int[]{C.COVERT, C.COVERT, C.INSTINCT, C.COVERT}, Sets.PaintRed),
 	moonKnight(R.string.hero_moon_knight, R.drawable.hero_moon_knight, T.KNIGHTS, new int[]{C.INSTINCT, C.TECH, C.TECH, C.INSTINCT}, Sets.PaintRed),
 	scarletSpider(R.string.hero_scarlet_spider, R.drawable.hero_scarlet_spider, T.SPIDER, new int[]{C.STRENGTH, C.INSTINCT, C.COVERT, C.STRENGTH}, Sets.PaintRed),
 	spiderWoman(R.string.hero_spider_woman, R.drawable.hero_spider_woman, T.SPIDER, new int[]{C.STRENGTH, C.RANGED, C.RANGED, C.COVERT}, Sets.PaintRed),
+	
+	//Guardians of the Galaxy
+	drax(R.string.hero_drax, R.drawable.hero_drax, T.GUARDIANS, new int[]{C.STRENGTH, C.INSTINCT}, Sets.GuardiansGalaxy),
+	gamora(R.string.hero_gamora, R.drawable.hero_gamora, T.GUARDIANS, new int[]{C.INSTINCT, C.COVERT}, Sets.GuardiansGalaxy),
+	groot(R.string.hero_groot, R.drawable.hero_groot, T.GUARDIANS, new int[]{C.STRENGTH, C.COVERT}, Sets.GuardiansGalaxy),
+	rocket(R.string.hero_rocket, R.drawable.hero_rocket, T.GUARDIANS, new int[]{C.RANGED, C.INSTINCT, C.TECH}, Sets.GuardiansGalaxy),
+	starlord(R.string.hero_starlord, R.drawable.hero_starlord, T.GUARDIANS, new int[]{C.TECH, C.RANGED, C.COVERT}, Sets.GuardiansGalaxy),
 	;
 	
 	private final CardBase card;
